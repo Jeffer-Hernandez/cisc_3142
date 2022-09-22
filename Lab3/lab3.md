@@ -9,6 +9,13 @@ C++ guarantees `short` and `int` is **at least** 16 bits, `long` **at least** 32
 
 The `signed` can represent positive numbers, negative numbers and zero, while `unsigned` can only represent numbers no less than zero.
 
+## Exercise 2.2
+>To calculate a mortgage payment, what types would you use
+for the rate, principal, and payment? Explain why you selected each type.
+
+I would use `double` or `float`. I would use a double or a float. Rates, payments, and figures relating to money, usually have decimal points.
+
+
 
 
 
