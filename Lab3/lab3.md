@@ -78,7 +78,20 @@ int main()
 }
 ```
 
-`100`, since the global `i` was hidden by the local `i`.
+`100`
+
+## Exercise 2.14
+>Is the following program legal? If so, what values are printed?
+```cpp
+    int i = 100, sum = 0;
+    for (int i = 0; i != 10; ++i)
+        sum += i;
+    std::cout << i << " " << sum << std::endl;
+```
+
+Output:
+
+```100 45```
 
 
 ## Ongoing Command list
