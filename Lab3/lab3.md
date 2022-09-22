@@ -15,8 +15,30 @@ for the rate, principal, and payment? Explain why you selected each type.
 
 I would use `double` or `float`. I would use a double or a float. Rates, payments, and figures relating to money, usually have decimal points.
 
+## Exercise 2.3
 
+> What output will the following code produce?
+```cpp
+unsigned u = 10, u2 = 42;
+std::cout << u2 - u << std::endl;
+std::cout << u - u2 << std::endl;
+int i = 10, i2 = 42;
+std::cout << i2 - i << std::endl;
+std::cout << i - i2 << std::endl;
+std::cout << i - u << std::endl;
+std::cout << u - i << std::endl;
+```
 
+Output(g++ 4.8):
+
+```
+32
+4294967264
+32
+-32
+0
+0
+```
 
 
 ## Ongoing Command list
