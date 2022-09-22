@@ -1,18 +1,19 @@
 ## Outputs for Lab3 exercises!
 
-| Exercise              | Output            | 
-|:----------------------|:------------------|
-|What are the differences between int, long, long long, and short?   | The minimum size for short and int is 16 bits, for long it is 32 bits and long long must contain at least 64 bits|
-|Between an unsigned and a signed type? Between a float and a double?|                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
-|                       |                   | 
+|Exercise | Prompt | Output | 
+|:--------|:--------|:--------|
+|2.1|What are the differences between int, long, long long, and short?   | The minimum size for short and int is 16 bits, for long it is 32 bits and long long must contain at least 64 bits|
+|2.1|Between an unsigned and a signed type? Between a float and a double?|An unsigned short (2 bytes) can represent values from 0 to 2^16, while a signed data type can store values form -2^15 to 2^15| 
+|2.2|To calculate a mortgage payment, what types would you use for the rate,
+principal, and payment? Explain why you selected each type. |I would use a double or a float. Rates, payments, and figures relating to money, usually have decimal points.|
+|2.3| | |
+|2.10| | |
+|2.12| | |
+|2.13| | |
+|2.14| | |
+|2.17| | |
+|2.27| | |
+|2.28| | |
 
 ## Ongoing Command list
 <!-- Record a terminal session -->
