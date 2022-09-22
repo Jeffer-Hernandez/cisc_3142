@@ -51,6 +51,21 @@ int main()
 }
 ```
 
+## Exercise 2.12
+`global_str` is global variable, so the value is empty string.
+`global_int` is global variable, so the value is zero.
+`local_int` is a local variable which is uninitialized, so it has a undefined value.
+`local_str` is also a local variable which is uninitialized, but it has a value that is defined by the class. So it is an empty string.
+
+>Which, if any, of the following names are invalid?
+- (a) int double = 3.14;
+- (b) int _;
+- (c) int catch-22;
+- (d) int 1_or_2 = 1;
+- (e) double Double = 3.14;
+
+`a`, `c`, `d` are invalid.
+
 
 ## Ongoing Command list
 <!-- Record a terminal session -->
