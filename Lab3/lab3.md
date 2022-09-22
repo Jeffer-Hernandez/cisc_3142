@@ -2,7 +2,7 @@
 
 | Exercise              | Output            | 
 |:----------------------|:------------------|
-|What are the differences between int, long, long long, and short?   |                   |
+|What are the differences between int, long, long long, and short?   | The minimum size for short and int is 16 bits, for long it is 32 bits and long long must contain at least 64 bits|
 |Between an unsigned and a signed type? Between a float and a double?|                   | 
 |                       |                   | 
 |                       |                   | 
