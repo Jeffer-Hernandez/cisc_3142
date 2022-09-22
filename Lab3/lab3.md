@@ -15,7 +15,8 @@ std::cout << i2 - i << std::endl;
 std::cout << i - i2 << std::endl;
 std::cout << i - u << std::endl;
 std::cout << u - i << std::endl;
-``` |32 4294967264 32 -32 0 0|
+``` 
+|32 4294967264 32 -32 0 0|
 |2.10| | |
 |2.12| | |
 |2.13| | |
