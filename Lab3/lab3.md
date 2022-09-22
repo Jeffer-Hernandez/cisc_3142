@@ -117,7 +117,16 @@ const int &const r2;        // illegal, r2 is a reference that cannot be const.
 const int i2 = i, &r = i;   // legal.
 ```
 
+## Exercise 2.28
+>Explain the following definitions. Identify any that are illegal.
 
+```cpp
+int i, *const cp;       // illegal, cp must initialize.
+int *p1, *const p2;     // illegal, p2 must initialize.
+const int ic, &r = ic;  // illegal, ic must initialize.
+const int *const p3;    // illegal, p3 must initialize.
+const int *p;           // legal. a pointer to const int.
+```
 
 ## Ongoing Command list
 Record a terminal session 
