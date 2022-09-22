@@ -50,13 +50,12 @@ int main()
     std::string local_str;
 }
 ```
+- `global_str` is global variable, so the value is empty string.
+- `global_int` is global variable, so the value is zero.
+- `local_int` is a local variable which is uninitialized, so it has a undefined value.
+- `local_str` is also a local variable which is uninitialized, but it has a value that is defined by the class. So it is an empty string.
 
 ## Exercise 2.12
-`global_str` is global variable, so the value is empty string.
-`global_int` is global variable, so the value is zero.
-`local_int` is a local variable which is uninitialized, so it has a undefined value.
-`local_str` is also a local variable which is uninitialized, but it has a value that is defined by the class. So it is an empty string.
-
 >Which, if any, of the following names are invalid?
 - (a) int double = 3.14;
 - (b) int _;
