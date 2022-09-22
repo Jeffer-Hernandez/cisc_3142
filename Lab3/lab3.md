@@ -67,30 +67,44 @@ int main()
 `a`, `c`, `d` are invalid.
 
 
+## Exercise 2.13
+>What is the value of j in the following program?
+```cpp
+int i = 42;
+int main()
+{
+    int i = 100;
+    int j = i;
+}
+```
+
+`100`, since the global `i` was hidden by the local `i`.
+
+
 ## Ongoing Command list
-<!-- Record a terminal session -->
+Record a terminal session 
 ```script -r script-mac-$(date +%F).log```
 
-<!-- show modified files in working directory, staged for your next commit -->
+show modified files in working directory, staged for your next commit 
 ```git status```
 
-<!-- add a file as it looks now to your next commit (stage) -->
+add a file as it looks now to your next commit (stage) 
 ```git add [file]```
 
-<!-- commit your staged content as a new commit snapshot -->
+commit your staged content as a new commit snapshot 
 ```git commit -m "[descriptive message]"```
 
-<!-- create a new branch at the current commit -->
+create a new branch at the current commit 
 ```git branch [branch name]```
 
-<!-- switch to another branch and chekc it out into your working directory -->
+switch to another branch and chekc it out into your working directory 
 ```git checkout```
 
-<!-- merge the specified branch's history into the current one -->
+merge the specified branch's history into the current one 
 ```git merge [branch]```
 
-<!-- fetch and merge any commits from the tracking remote branch -->
+fetch and merge any commits from the tracking remote branch 
 ```git pull```
 
-<!-- Transmit local branch commits to the remote repository branch -->
+Transmit local branch commits to the remote repository branch 
 ```git push [alias] [branch]```
