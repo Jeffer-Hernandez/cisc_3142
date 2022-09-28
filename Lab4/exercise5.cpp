@@ -1,11 +1,10 @@
-#include <iostream> //preprocessor directive.
+//#lab processing problem
+#include <iostream>//header files
 using namespace std;
 
-// main entry point
-int main() {
-    
+int main()
+{
 
-    
+return 0;
 
-    return 0;
 }

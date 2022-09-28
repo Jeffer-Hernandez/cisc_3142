@@ -1,9 +1,15 @@
 #include <iostream> //preprocessor directive.
 using namespace std;
 
-// main entry point
+/*
+Write a program to print the size of each of the built-in types.
+*/
+
+// main 
 int main() {
 
+    // found a list of all built in types and used "sizeof" function to find the 
+    // size
     cout << "Size of char: " << sizeof(char) << " byte" << endl;
     cout << "Size of int: " << sizeof(int) << " bytes" << endl;
     cout << "Size of unsigned int: " << sizeof(unsigned int) << " bytes" << endl;
