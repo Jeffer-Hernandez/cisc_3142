@@ -1,26 +1,36 @@
 #include <iostream> //preprocessor directive.
 using namespace std;
 
-// main entry point
+// main 
 int main() {
-    // ask for the cost of an item 
-    // assign to a "cost" variable of type float
 
-    // ask for the number of years from now the item will be purchased 
-    // assign the "years" variable of integer type
+    //Declaration of variables
+	double itemPrice;
+	double inflation;
+	int years; 
+	char repeatOption;
 
-    // ask for the rate of inflation
-    // assign to a "rate" variable of type float
+    ///Program asks for the cost of the item,
+    //the number of years from now that the item will be purchased,
+    //and the rate of inflation
+    cout<<"Please enter the cost of the item: ";
+    cin>>itemPrice;
 
-    // divide the "rate" variable by 100 to create the percentage decimal version
+    cout<<"Please the number of years from now that the item will be purchased: ";
+    cin>>years;
 
-    // assign "final_price" variable of type float
-    // the initial value of the "final_price" variable is the 
-        // product of the cost variable and the rate variable
+    cout<<"Please enter the rate of inflation: ";
+    cin>>inflation;
 
-    // for loop through all the years provided by the user
-    // for each loop, final_price += (final_price * rate)
-    // return final_price
+   //Calculate the estimated cost of the item 
+    //after the specified period and print output
+    inflation/= 100;
+
+    for (int i=0; i<years; i++){
+        itemPrice *= (1 + inflation);
+    } 
+
+    cout<<"Estimated cost of the item after  "<< years <<" will be: "<< itemPrice << endl;
 
     return 0;
 }
