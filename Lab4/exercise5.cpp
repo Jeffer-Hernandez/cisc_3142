@@ -4,16 +4,14 @@ using namespace std;
 
 int main()
 {
-    // declare a float varaible for "lethal_dose" (5.0 grams)
-    // declare a "mass_of_mouse" variable, a float assigned the value 35.0 (grams)
-    // declare the "dieter_weight" float variable, assigned value 45400.0
-    // declare a variable for "goal_weight"
-    // compute, "can_mass" variable (350.0) multiplied by .001 (1/10 of 1%)
-        // assign the value to "art_sweetener"
-    // compute "human_lethal_dose" by dividing "dieter_weight" by 7
-    // compute human lethal dose by dividing "human_lethal_dose" by "art_sweetener"
-        // the resulting value is the number of cans the dieter can drink (just before dying)
+    float weight = 45400; // weight of person in grams
+    float sweetenerInSoda = 0.001;   // 1/10th of 1%
+    float sodaMass = 350; 
+    int numOfSodas = 0;
+    float sweetenerLethalDose = (weight/7); //ratio 5gm sweetner for 35gm weight
 
+    numOfSodas = sweetenerLethalDose / sweetenerInSoda;
 
-return 0;
+    cout<<"\nYou can consume "<< numOfSodas <<" diet sodas before you die, friend.\n";
+    return 0;
 }
