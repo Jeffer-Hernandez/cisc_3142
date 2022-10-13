@@ -14,13 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make exercise 1
-      run: g++ Lab4/exercise1.cpp && ./a.out
+      run: g++ Lab5/exercise1.cpp && ./a.out
     - name: make exercise 2
-      run: g++ Lab4/exercise2.cpp && ./a.out
+      run: g++ Lab5/exercise2.cpp && ./a.out
     - name: make exercise 3
-      run: g++ Lab4/exercise3.cpp && ./a.out
-    - name: make exercise 4
-      run: g++ Lab4/exercise4.cpp && ./a.out
-    - name: make exercise 5
-      run: g++ Lab4/exercise5.cpp && ./a.out
+      run: g++ Lab5/exercise3.cpp && ./a.out
 
