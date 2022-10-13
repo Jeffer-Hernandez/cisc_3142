@@ -24,5 +24,12 @@
 > Given the variable definitions in this section, explain what conversions take place in the following expressions:
 
 (a) if (fval)
+    No conversion
+    
 (b) dval = fval + ival;
+    `float` value and `integer` value promoted to `decimal` value
+
 (c) dval + ival * cval;
+    `char` value converted to `integer` when multiplied with ival, then
+    this new integer is promoted to `decimal` value when summed with dval
+
