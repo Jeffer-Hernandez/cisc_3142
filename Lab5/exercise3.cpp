@@ -35,7 +35,7 @@ int main()
 
     // read from file
     ifstream inFile;
-    inFile.open("data.txt");
+    inFile.open("Lab5/data.txt");
 
     if (!inFile)
     {
