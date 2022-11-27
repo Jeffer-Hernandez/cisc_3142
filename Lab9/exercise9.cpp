@@ -3,6 +3,7 @@
 #include <fstream>
 #include <numeric>
 #include <vector>
+#include <iomanip>
 #include <algorithm> // for copy
 using namespace std;
 
